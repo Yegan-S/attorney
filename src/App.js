@@ -3,9 +3,9 @@ import './App.css';
 
 function App() {
   return (
-    <div className="bg-green-500 text-orange  text-5xl p-4">
+    <div className="bg-green-500 text-  text-2xl p-4">
       
-      <h1 >Hello</h1>
+      <h1 >سلام من سیما صالحی هستم</h1>
        
     </div>
   );
