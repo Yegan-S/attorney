@@ -1,12 +1,16 @@
-
+import React from 'react';
 import './App.css';
+import Home from "./Home";
+
 
 function App() {
   return (
-    <div>
-      
-      <h1 className="border-4 border-green-600" >سلام سیما صالحی هستم</h1>
-       
+    <div className="App">
+      <Home />
+      <footer className=''>
+        Created by {" "}
+        <a href='https://benevolent-druid-a3543f.netlify.app'>Yegane Salehi</a>
+      </footer>
     </div>
   );
 }
