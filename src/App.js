@@ -10,6 +10,8 @@ function App() {
       <footer className=''>
         Created by {" "}
         <a href='https://benevolent-druid-a3543f.netlify.app'>Yegane Salehi</a>
+      {" "}in {" "}
+      <a href='https://github.com/sedi-yegan/attorney'>Github</a>
       </footer>
     </div>
   );
