@@ -5,7 +5,7 @@ import Home from "./Home";
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-200 transition-colors duration-300">
 
       {/* main content */}
 
@@ -16,7 +16,7 @@ function App() {
 
       {/* Footer */}
 
-    <footer className="bg-gray-100 text-gray-700 py-4 flex justify-center items-center space-x-2 border-t ">
+    <footer className="bg-gray-100 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 py-4 px-4 flex flex-col justify-center items-center sm:space-x-2 space-y-1 sm:space-y-0 text-center text-sm ">
 
         <span className='text-sm'> 
           Created by 
@@ -24,7 +24,7 @@ function App() {
 
         <a href='https://benevolent-druid-a3543f.netlify.app' 
            target='_blank' rel='noopener noreferrer'
-           className='text-sm  text-blue-600 hover:underline '>
+           className='text-sm  text-blue-600 dark:text-blue-400 hover:underline '>
 
             Yegane Salehi
         </a>
@@ -35,7 +35,7 @@ function App() {
 
       <a href='https://github.com/sedi-yegan/attorney'
          target='_blank' rel='noopener noreferrer'
-         className='text-sm text-blue-600 hover:underline'>
+         className='text-sm text-blue-600 dark:text-blue-400 hover:underline'>
          Github
       </a>
 
