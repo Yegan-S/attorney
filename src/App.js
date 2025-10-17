@@ -6,12 +6,14 @@ import Home from "./Home";
 function App() {
   return (
     <div className="App">
+      <main>
       <Home />
-      <footer className="flex justify-center">
-        Created by {" "}
-        <a href='https://benevolent-druid-a3543f.netlify.app'>Yegane Salehi </a>
-      {" "} in {" "}
-      <a href='https://github.com/sedi-yegan/attorney'> Github</a>
+      </main>
+      <footer className="flex justify-center space-x-1">
+        <span className='text-sm'> Created by </span>
+        <a href='https://benevolent-druid-a3543f.netlify.app' className='text-sm'>Yegane Salehi </a>
+      <span className='text-sm'> in </span>
+      <a href='https://github.com/sedi-yegan/attorney' className='text-sm'> Github</a>
       </footer>
     </div>
   );
