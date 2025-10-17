@@ -6,12 +6,17 @@ import Home from "./Home";
 function App() {
   return (
     <div className="flex flex-col min-h-screen">
+
+      {/* main content */}
+
       <main className='flex-grow'>
         <Home />
       </main>
 
 
-    <footer className="flex justify-center space-x-1">
+      {/* Footer */}
+
+    <footer className="bg-gray-100 text-gray-700 py-4 flex justify-center items-center space-x-2 border-t ">
 
         <span className='text-sm'> 
           Created by 
