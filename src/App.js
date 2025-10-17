@@ -5,11 +5,13 @@ import Home from "./Home";
 
 function App() {
   return (
-    <div className="App">
-      
-      <Home />
-     
-      <footer className="flex justify-center space-x-1">
+    <div className="flex flex-col min-h-screen">
+      <main className='flex-grow'>
+        <Home />
+      </main>
+
+
+    <footer className="flex justify-center space-x-1">
 
         <span className='text-sm'> 
           Created by 
@@ -33,7 +35,7 @@ function App() {
       </a>
 
       </footer>
-      
+
     </div>
   );
 }
