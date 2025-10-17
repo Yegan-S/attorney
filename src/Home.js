@@ -5,7 +5,7 @@ import "./Home.css"
 export default function Home() {
     return (
         <div>
-            <h1 className="flex justify-center items-center ">Hello Everyone</h1>
+            <h1 className="flex justify-center items-center ">گروه حقوقی سایداد</h1>
         </div>
     );
 }
