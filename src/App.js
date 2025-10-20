@@ -42,7 +42,7 @@ function App() {
 
       {/* Dark mode toggle button */}
 
-      <div className="absolute top-4 right-4">
+      <div className="absolute top-12 right-4">
         <button
         onClick={toggleDarkMode}
         className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 hover:scale-105 transition-transform"
