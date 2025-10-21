@@ -5,12 +5,12 @@ export default function Header(){
     return(
      <div>
     
- <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script>
+ 
 <nav class="relative">
   <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
 
     
- <h1 className="flex justify-center items-center ">گروه حقوقی سایداد</h1>
+ 
     <div class="relative flex h-16 items-center justify-between">
      
 
@@ -38,7 +38,7 @@ export default function Header(){
 
  
 </nav>
-
+<h1 className="flex justify-center items-center ">گروه حقوقی سایداد</h1>
        
      </div>
     );

@@ -40,7 +40,7 @@ function App() {
   return (
     <div className="flex flex-col min-h-screen bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-200 transition-colors duration-300">
 
-      {/* Dark mode toggle button */}
+      { /* Dark mode toggle button */ }
 
       <div className="absolute top-4 right-4">
         <button
