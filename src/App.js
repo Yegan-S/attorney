@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import Home from "./Home";
+import Header from "./Header";
 import { Sun, Moon }from "lucide-react";
 import Footer from './Footer';
 
@@ -38,11 +39,13 @@ function App() {
 
 
   return (
-    <div className="flex flex-col min-h-screen bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-200 transition-colors duration-300">
+    <div className="flex flex-col min-h-screen bg-white  dark:bg-gray-900 transition-colors duration-300">
+      {/* Header at the top */}
+      <Header />
 
       { /* Dark mode toggle button */ }
 
-      <div className="absolute top-4 right-4">
+      <div className="absolute top-4 right-4 z-50">
         <button
         onClick={toggleDarkMode}
         className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 hover:scale-105 transition-transform"
