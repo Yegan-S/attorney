@@ -21,9 +21,9 @@ export default function Header(){
 
             <div class="flex space-x-6">
 
-            <a href="#" class=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-gray-400 text-lg font-semibold">خانه</a>
-            <a href="#" class=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-gray-400 text-lg font-semibold">خدمات</a>
-            <a href="#" class=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-gray-400 text-lg font-semibold">تماس</a>
+            <a href="#" class=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-gray-400 text-lg font-medium">خانه</a>
+            <a href="#" class=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-gray-400 text-lg font-medium">خدمات</a>
+            <a href="#" class=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-gray-400 text-lg font-medium">تماس</a>
           </div>
         </div>
      
