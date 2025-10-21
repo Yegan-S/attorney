@@ -4,7 +4,7 @@ import { Scale }from "lucide-react";
 export default function Header(){
     return(
      <div>
-      <nav class="bg-gray-100 dark:bg-gray-900 border-b border-gray-300 dark:border-gray-700 shadow-sm">
+      <nav class="bg-gray-100 dark:bg-gray-900 border-b border-gray-300 dark:border-gray-700 shadow-lg">
 
         <div class="mx-auto max-w-7xl px-4 py-3 flex items-center justify-between pr-16">
 
@@ -19,11 +19,11 @@ export default function Header(){
 
             { /* Right Section -links */ }
 
-            <div class="flex space-x-4">
+            <div class="flex space-x-6">
 
-            <a href="#" class=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-gray-400 text-sm font-medium">خانه</a>
-            <a href="#" class=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-gray-400 text-sm font-medium">خدمات</a>
-            <a href="#" class=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-gray-400 text-sm font-medium">تماس</a>
+            <a href="#" class=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-gray-400 text-lg font-semibold">خانه</a>
+            <a href="#" class=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-gray-400 text-lg font-semibold">خدمات</a>
+            <a href="#" class=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-gray-400 text-lg font-semibold">تماس</a>
           </div>
         </div>
      
