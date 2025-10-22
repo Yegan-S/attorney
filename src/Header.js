@@ -84,6 +84,7 @@ export default function Header(){
             <a href="#" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-lg font-medium"> تماس</a>
             <a href="#" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-lg font-medium">خدمات</a>
             <a href="#" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-lg font-medium"> درباره ما </a>
+           
            <button
            onClick={toggleDarkMode}
            className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 hover:scale-110 transition-transform"
