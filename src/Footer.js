@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Github, MessageCircle} from "lucide-react";
 
 
 export default function Footer(){
@@ -17,14 +17,17 @@ export default function Footer(){
             Yegane Salehi
         </a>
 
-      <span className='text-sm'>
-         in 
-      </span>
 
       <a href='https://github.com/Yegan-S'
          target='_blank' rel='noopener noreferrer'
-         className='text-sm text-blue-600 dark:text-blue-400 hover:underline'>
-         Github
+         className='text-sm text-blue-600 dark:text-blue-400 hover:text-green-800 dark:hover:text-white'>
+         <Github size={20}/>
+      </a>
+
+      <a href='https://wa.me/+989304195183'
+         target='_blank' rel='noopener noreferrer'
+         className='text-sm text-blue-600 dark:text-blue-400 hover:text-green-800 dark:hover:text-white'>
+         <MessageCircle size={20}/>
       </a>
 
       </footer>
