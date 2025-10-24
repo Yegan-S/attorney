@@ -34,7 +34,8 @@ export default function Header(){
 
     return(
      
-      <nav className="bg-gray-100 dark:bg-gray-900 border-b border-gray-300 dark:border-gray-700 shadow-lg">
+
+<nav className="bg-gray-100 dark:bg-gray-900 border-b border-gray-300 dark:border-gray-700 shadow-lg">
 
         <div className="mx-auto max-w-7xl px-4 py-3 flex items-center justify-between pr-16">
 
@@ -43,7 +44,7 @@ export default function Header(){
            <Scale className="text-blue-600 dark:text-blue-400" size={28}/>
           </div>
 
-          <h1 className="text-xl font-semibold text-gray-800 dark:text-gray-100 items-center "
+          <h1 className="text-xl font-semibold text-gray-800 dark:text-gray-100 items-center text-center "
           >گروه حقوقی سایداد
           </h1>
 
