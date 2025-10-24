@@ -10,16 +10,21 @@ export default function Home() {
         <div className="flex justify-center items-center py-2" >
      <img src="/images/sima.png" className="w-48 h-48 rounded-full"></img>
      </div>
-     <div className=" rounded-full text-sm text-center">
+     <div className=" rounded-full text-lg text-center py-2 font-normal">
      <p >
-        .با رویکردی حرفه ای و دقیق, ایشان تمام تلاش خود را معطوف به حمایت از حقوق موکلین و ارایه راهکارهای موثر جهت حل و فصل سریع و مطلوب پرونده ها می نماید
+           .موسسه حقوقی سایداد با تکیه بر تجربه, تخصص و تعهد, مجموعه ایی از خدمات جامع در حوزه مشاوره و وکالت را به اشخاص حقیقی و حقوقی ارایه می دهد
         <br></br>
-         .تعهد, تخصص و تجربه خانم صالحی در کنار دانش به روز حقوقی,ایشان را به انتخابی مطمین برای مسایل حقوقی پیچیده تبدیل کرده است
+         .تعهد, تخصص و تجربه در کنار دانش به روز حقوقی,این گروه را به انتخابی مطمین برای مسایل حقوقی پیچیده تبدیل کرده است
          </p>
          <br></br>
              <p >
                 برای مشاوره حقوقی و همکاری های تخصصی, می توانید از طریق سایت یا شماره های اعلام شده با گروه سایداد در ارتباط باشید.
           </p>
+          </div>
+
+          <div className="flex justify-center items-center text-center p-3">
+            <h3 className="font-semibold text-lg"> حوزه های تخصصی خدمات</h3>
+
           </div>
 
       <p className="text-center text-4xl text-black py-4 "> This website is in progress</p>
