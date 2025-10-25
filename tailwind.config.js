@@ -7,14 +7,19 @@ module.exports = {
   ],
   theme: 
   {
-    screens:{
-      sm: '480px',
-      md: '768px',
-      lg: '976px',
-      xl: '1440px',
+    extend:{
+      keyframes:{
+        fadeIn:{
+          '0%' : { opacity: '0', transform: 'translateY(20px)' },
+          '100%' : { opacity: '1', transform:'translateY(0)' },
+        },
+      },
     },
-    extend: {},
-  },
+      animation: {
+        fadeIn: 'fadeIn 1s ease-out forwards'
+      },
+    },
+  
   plugins: [],
-}
+};
 
