@@ -17,8 +17,9 @@ export default function Home() {
                  
     </h1>
 
-     <div className=" rounded-full py-2">
-     <p className=" text-lg text-center font-normal text-gray-800 dark:text-gray-100 animate-fadeIn delay-300">
+     <div className=" py-2">
+     <p className=" text-lg text-center font-normal text-gray-800 dark:text-gray-100 animate-fadeIn delay-300
+      border border-gray-400 dark:border-gray-600 rounded-lg p-4 m-4 bg-white/80 dark:bg-black/40 shodow-md">
            .موسسه حقوقی سایداد با تکیه بر تجربه, تخصص و تعهد, مجموعه ایی از خدمات جامع در حوزه مشاوره و وکالت را به اشخاص حقیقی و حقوقی ارایه می دهد
         <br></br>
          .تعهد, تخصص و تجربه در کنار دانش به روز حقوقی, این گروه را به انتخابی مطمین برای مسایل حقوقی پیچیده تبدیل کرده است
