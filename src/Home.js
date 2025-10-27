@@ -1,4 +1,5 @@
 import React from "react";
+import { Scale }from "lucide-react";
 import "./Home.css"
 
 
@@ -20,9 +21,9 @@ export default function Home() {
      <div className=" py-2">
      <p className=" text-lg text-center font-normal text-gray-800 dark:text-gray-100 animate-fadeIn delay-300
       border border-gray-400 dark:border-gray-600 rounded-lg p-4 m-4 bg-white/80 dark:bg-black/40 shodow-md">
-           .موسسه حقوقی سایداد با تکیه بر تجربه, تخصص و تعهد, مجموعه ایی از خدمات جامع در حوزه مشاوره و وکالت را به اشخاص حقیقی و حقوقی ارایه می دهد
+           .موسسه حقوقی سایداد با تکیه بر تجربه, تخصص و تعهد, مجموعه ایی از خدمات جامع در حوزه مشاوره و وکالت را به اشخاص حقیقی و حقوقی ارائه می دهد
         <br></br>
-         .تعهد, تخصص و تجربه در کنار دانش به روز حقوقی, این گروه را به انتخابی مطمین برای مسایل حقوقی پیچیده تبدیل کرده است
+         .تعهد, تخصص و تجربه در کنار دانش به روز حقوقی, این گروه را به انتخابی مطمئن برای مسائل حقوقی پیچیده تبدیل کرده است
          </p>
          <br></br>
              
@@ -30,17 +31,30 @@ export default function Home() {
             تیم حقوقی 
             </h1>
         <p className=" text-lg text-center font-normal text-gray-800 dark:text-gray-100 animate-fadeIn delay-800" >
-                .موسسه سایداد از جمعی از وکلای پایه یک دادگستری, مشاوران حقوقی, و کارشناسان رسمی تشکیل شده است که در کنار یکدیگر, راهکارهای حقوقی دقیق و تخصصی را متناسب با نیاز هر موکل ارایه می دهند
+                .موسسه سایداد از جمعی از وکلای پایه یک دادگستری, مشاوران حقوقی, و کارشناسان رسمی تشکیل شده است که در کنار یکدیگر, راهکارهای حقوقی دقیق و تخصصی را متناسب با نیاز هر موکل ارائه می دهند
                 .برای مشاوره حقوقی و همکاری های تخصصی, می توانید از طریق سایت یا شماره های اعلام شده با گروه سایداد در ارتباط باشید
           </p>
           </div>
 
           <div className="flex justify-center items-center text-center p-3 text-gray-800 dark:text-gray-100">
-            <h3 className="font-semibold text-lg text-gray-800 dark:text-gray-100">
+            <ul className="list-disc text-base/8">
+            <h3 className="font-semibold text-lg py-2">
                  حوزه های تخصصی خدمات</h3>
-            <ul>
+                 
+                 <div className="">
+                 <Scale className="text-blue-600 dark:text-blue-400 " size={20}/>
+                <h4 className="text-base/8 font-semibold">
+                    تنظیم و تدوین قراردادها
+                </h4>
+                </div>
+                <li >
+                    تنظیم انواع قراردادهای تجاری,ملکی,پیمانکاری,شراکت,استخدامی و بین المللی
+                </li>
                 <li>
-
+                   بررسی و اصلاح قراردادهای موجود با رویکرد پیشگیری از اختلافات
+                </li> 
+                <li>
+                    ارائه مشاوره در خصوص تعهدات و ضمانت اجرای مفاد قراردادی 
                 </li>
             </ul>
 
