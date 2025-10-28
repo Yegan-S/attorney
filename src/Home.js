@@ -12,21 +12,23 @@ export default function Home() {
         درباره ما         
     </h1>
 
-     <div className="flex justify-center items-center py-2">
+     <div className="flex justify-center items-center gap-6 py-4">
 
-     <p className="box-border size-44 text-sm text-center font-normal text-gray-800 dark:text-gray-100 animate-fadeIn delay-300
-      border-3 border-gray-400 dark:border-gray-600 rounded-full py-4 px-6 m-4 bg-white/80 dark:bg-black/40 shodow-md">
+        <div className="flex justify-center items-center w-44 h-44  border-2 border-gray-400 dark:border-gray-600  rounded-full p-4 bg-white/80 dark:bg-black/40 shodow-md animate-fadeIn delay-300">
+             <p className="  text-sm text-center font-normal text-gray-800 dark:text-gray-100  leading-relaxed">
             تعهد, تخصص و تجربه در کنار دانش به روز حقوقی, این گروه را به انتخابی مطمئن برای مسائل حقوقی پیچیده تبدیل کرده است
-         </p>
-        
-              <p className="box-border size-44 text-sm text-center font-normal text-gray-800 dark:text-gray-100 animate-fadeIn delay-300
-      border-4 border-gray-400 dark:border-gray-600 rounded-full py-4 px-5 m-4 bg-white/80 dark:bg-black/40 shodow-md">
+                 </p>
+                  </div>
+        <div className="flex justify-center items-center w-44 h-44  border-2 border-gray-400 dark:border-gray-600  rounded-full p-4 bg-white/80 dark:bg-black/40 shodow-md animate-fadeIn delay-300">
+              <p className="text-sm text-center font-normal text-gray-800 dark:text-gray-100 leading-relaxed">
          موسسه حقوقی سایداد با تکیه بر تجربه, تخصص و تعهد, مجموعه ایی از خدمات جامع در حوزه مشاوره و وکالت را به اشخاص حقیقی و حقوقی ارائه می دهد
          
          </p>
+         </div>
         
-       
-          </div>
+        
+         </div>
+
 
           
 
