@@ -6,34 +6,26 @@ import "./Home.css"
 
 export default function Home() {
     return (
-    <div>
+    <div className="">
 
-    <div className="flex justify-center items-center  py-2 animate-fadeIn " >
-          <img src="/images/simaa.jpg" alt="sima" className="w-48 h-48 rounded-full shadow-lg  max-auto">
-         </img>
-     </div>
-
-    <h1 className="text-center py-2 font-semibold text-lg text-gray-800 dark:text-gray-100 animate-fadeIn delay-200">
-        درباره ما
-                 
+    <h1 className="text-center  py-2 font-semibold text-lg text-gray-800 dark:text-gray-100 animate-fadeIn delay-200">
+        درباره ما         
     </h1>
 
-     <div className="py-2">
-     <p className="box-border size-52 text-sm text-center font-normal text-gray-800 dark:text-gray-100 animate-fadeIn delay-300
-      border-2 border-gray-400 dark:border-gray-600 rounded-full p-4 m-4 bg-white/80 dark:bg-black/40 shodow-md">
-           .موسسه حقوقی سایداد با تکیه بر تجربه, تخصص و تعهد, مجموعه ایی از خدمات جامع در حوزه مشاوره و وکالت را به اشخاص حقیقی و حقوقی ارائه می دهد
-        <br></br>
-         .تعهد, تخصص و تجربه در کنار دانش به روز حقوقی, این گروه را به انتخابی مطمئن برای مسائل حقوقی پیچیده تبدیل کرده است
+     <div className="flex justify-center items-center py-2">
+
+     <p className="box-border size-44 text-sm text-center font-normal text-gray-800 dark:text-gray-100 animate-fadeIn delay-300
+      border-3 border-gray-400 dark:border-gray-600 rounded-full py-4 px-6 m-4 bg-white/80 dark:bg-black/40 shodow-md">
+            تعهد, تخصص و تجربه در کنار دانش به روز حقوقی, این گروه را به انتخابی مطمئن برای مسائل حقوقی پیچیده تبدیل کرده است
          </p>
-         <br></br>
-             
-        <h1 className="font-semibold text-lg text-center text-gray-800 dark:text-gray-100 animate-fadeIn delay-800">
-            تیم حقوقی 
-            </h1>
-        <p className=" text-lg text-center font-normal text-gray-800 dark:text-gray-100 animate-fadeIn delay-800" >
-                .موسسه سایداد از جمعی از وکلای پایه یک دادگستری, مشاوران حقوقی, و کارشناسان رسمی تشکیل شده است که در کنار یکدیگر, راهکارهای حقوقی دقیق و تخصصی را متناسب با نیاز هر موکل ارائه می دهند
-                .برای مشاوره حقوقی و همکاری های تخصصی, می توانید از طریق سایت یا شماره های اعلام شده با گروه سایداد در ارتباط باشید
-          </p>
+        
+              <p className="box-border size-44 text-sm text-center font-normal text-gray-800 dark:text-gray-100 animate-fadeIn delay-300
+      border-4 border-gray-400 dark:border-gray-600 rounded-full py-4 px-5 m-4 bg-white/80 dark:bg-black/40 shodow-md">
+         موسسه حقوقی سایداد با تکیه بر تجربه, تخصص و تعهد, مجموعه ایی از خدمات جامع در حوزه مشاوره و وکالت را به اشخاص حقیقی و حقوقی ارائه می دهد
+         
+         </p>
+        
+       
           </div>
 
           
@@ -45,12 +37,12 @@ export default function Home() {
                  
                  <div className="flex flex-row items-center justify-center gap-2 text-blue-600 dark:text-blue-400">
                  <Scale size={20}/>
-                <h4 className="text-base/10 font-semibold py-2 text-gray-800 dark:text-gray-100">
+                <h4 className="text-base/10 font-bold py-2 dark:text-blue-400 ">
                     تنظیم و تدوین قراردادها
                 </h4>
                 </div>
 
-                <ul className="list-disc text-base text-center items-center rtl space-y-2 ">
+                <ul className="list-disc text-base text-center items-center rtl space-y-2 dark:text-gray-100 ">
 
                 <li>تنظیم انواع قراردادهای تجاری,ملکی,پیمانکاری,شراکت,استخدامی و بین المللی</li>
                 <li>بررسی و اصلاح قراردادهای موجود با رویکرد پیشگیری از اختلافات</li> 
@@ -59,12 +51,12 @@ export default function Home() {
 
              <div className="flex flex-row items-center justify-center gap-2 text-blue-600 dark:text-blue-400">
                  <Scale size={20}/>
-                <h4 className="text-base/10 font-semibold py-2 text-gray-800 dark:text-gray-100">
+                <h4 className="text-base/10 font-bold py-2  dark:text-blue-400">
                     داوری و حل و فصل اختلافات
                 </h4>
                 </div>
 
-                <ul className="list-disc text-base text-center items-center rtl space-y-2 ">
+                <ul className="list-disc text-base text-center items-center rtl space-y-2 dark:text-gray-100">
 
                 <li>پذیرش داوری در قراردادهای داخلی و بین المللی</li>
                 <li>ارائه خدمات داوری در اختلافات تجاری, ملکی و خانوادگی</li> 
@@ -73,12 +65,12 @@ export default function Home() {
 
              <div className="flex flex-row items-center justify-center gap-2 text-blue-600 dark:text-blue-400">
                  <Scale size={20}/>
-                <h4 className="text-base/10 font-semibold py-2 text-gray-800 dark:text-gray-100">
+                <h4 className="text-base/10 font-bold py-2  dark:text-blue-400">
                     دعاوی خانواده
                 </h4>
                 </div>
 
-                <ul className="list-disc text-base text-center items-center rtl space-y-2 ">
+                <ul className="list-disc text-base text-center items-center rtl space-y-2 dark:text-gray-100">
 
                 <li>طلاق توافقی و غیرتوافقی</li>
                 <li>مهریه,نفقه,حضانت فرزند و اجرت المثل</li> 
@@ -87,12 +79,12 @@ export default function Home() {
 
              <div className="flex flex-row items-center justify-center gap-2 text-blue-600 dark:text-blue-400">
                  <Scale size={20}/>
-                <h4 className="text-base/10 font-semibold py-2 text-gray-800 dark:text-gray-100">
+                <h4 className="text-base/10 font-bold py-2 dark:text-blue-400">
                      دعاوی مالی, ملکی و ثبتی
                 </h4>
                 </div>
 
-                <ul className="list-disc text-base text-center items-center rtl space-y-2 ">
+                <ul className="list-disc text-base text-center items-center rtl space-y-2 dark:text-gray-100">
 
                 <li>دعاوی مربوط به مالکیت, سرقفلی اجاره, تفکیک و افراز</li>
                 <li>دعاوی مربوط به اسناد رسمی و اداره ثبت اسناد و املاک</li> 
@@ -101,12 +93,12 @@ export default function Home() {
 
              <div className="flex flex-row items-center justify-center gap-2 text-blue-600 dark:text-blue-400">
                  <Scale size={20}/>
-                <h4 className="text-base/10 font-semibold py-2 text-gray-800 dark:text-gray-100">
+                <h4 className="text-base/10 font-bold py-2  dark:text-blue-400">
                      دعاوی کیفری
                 </h4>
                 </div>
 
-                <ul className="list-disc text-base text-center items-center rtl space-y-2 ">
+                <ul className="list-disc text-base text-center items-center rtl space-y-2 dark:text-gray-100 ">
 
                 <li>دفاع از متهم و شاکی در پرونده های کلاهبرداری,جعل,خیانت در امانت و جرایم سایبری </li>
                 <li>حضور در مراحل بازپرسی,دادسرا و دادگاه های کیفری</li> 
@@ -115,12 +107,12 @@ export default function Home() {
 
              <div className="flex flex-row items-center justify-center gap-2 text-blue-600 dark:text-blue-400">
                  <Scale size={20}/>
-                <h4 className="text-base/10 font-semibold py-2 text-gray-800 dark:text-gray-100">
+                <h4 className="text-base/10 font-bold py-2  dark:text-blue-400">
                     دیوان عدالت اداری
                 </h4>
                 </div>
 
-                <ul className="list-disc text-base text-center items-center rtl space-y-2 ">
+                <ul className="list-disc text-base text-center items-center rtl space-y-2 dark:text-gray-100 ">
 
                 <li>طرح و پیگیری دعاوی علیه تصمیمات ادارات و سازمان های دولتی</li>
                 <li>اعتراض به آرای کمیسون ها و مراجع شبه قضایی</li> 
@@ -128,6 +120,23 @@ export default function Home() {
             </ul>
 
           </div>
+
+          <div className="py-2">
+
+           <h1 className="font-bold text-lg text-center  dark:text-gray-100 animate-fadeIn delay-800">
+            تیم حقوقی 
+            </h1>
+        <p className=" text-lg text-center font-normal text-gray-800 dark:text-gray-100 animate-fadeIn delay-800" >
+                .موسسه سایداد از جمعی از وکلای پایه یک دادگستری, مشاوران حقوقی, و کارشناسان رسمی تشکیل شده است که در کنار یکدیگر, راهکارهای حقوقی دقیق و تخصصی را متناسب با نیاز هر موکل ارائه می دهند
+                .برای مشاوره حقوقی و همکاری های تخصصی, می توانید از طریق سایت یا شماره های اعلام شده با گروه سایداد در ارتباط باشید
+          </p>
+          </div>
+
+          
+    <div className="flex justify-center items-center  py-2 animate-fadeIn " >
+          <img src="/images/simaa.jpg" alt="sima" className="w-48 h-48 rounded-full shadow-lg  max-auto">
+         </img>
+     </div>
 
       <p className="text-center text-4xl text-black py-4 "> This website is in progress</p>
         </div>
