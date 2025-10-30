@@ -139,13 +139,14 @@ export default function Home() {
           <img src="/images/simaa.jpg" alt="sima" className="w-48 h-48 rounded-full shadow-lg  max-auto">
          </img>
      </div>
-
-
-        <button type="submit"
-                className="bg-blue-600 hover:bg-blue-800 text-white ">
+     
+     <div className="text-center">
+     <button type="submit"
+                className="bg-blue-600 hover:bg-blue-800 text-white px-6 py-2 rounded-lg transition-all duration-200 shadow-md ">
                     ارسال 
 
         </button>
+        </div>
 
 
       <p className="text-center text-4xl text-black py-4 "> This website is in progress</p>
