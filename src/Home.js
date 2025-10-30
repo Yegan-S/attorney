@@ -1,10 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import { Scale }from "lucide-react";
-import "./Home.css"
+import "./Home.css";
 
 
 
-export default function Home() {
+export default function Home() { 
+
+    const [formData, setFormData] =useState({
+        firstName: "",
+        lastName: "",
+        phone: "",
+        problem: "",
+    });
+     
+    const handleChange = (e) =>{
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value});
+     };
+
+     const handleSubmit = (e) => {
+        e.preventDefault();
+
+        if ( !formData.firstName || !formData.lastName || !formData.phone || !formData.problem){
+            alert( "please fill out all fields before submitting. ");
+            return;
+        }
+        alert(`Thank you, ${formData.firstName}! we'll contact you soon. `);
+        setFormData({ firstName: "", lastName: "", phone: "", problem: ""});
+     };
+
+
+
     return (
     <div className="">
 
@@ -146,14 +172,14 @@ export default function Home() {
             <h2 className="text-2xl font-semibold text-center mb-6 text-gray-800 dark:text-gray-100">
                 فرم تماس با ما
             </h2>
-     <form className="space-y-4">
+     <form onSubmit={handleSubmit} className="space-y-4">
 
         {/*First Name */}
         <div>
             <lable className="block text-gray-700 dark:text-gray-200 font-medium mb-1">
                   نام <span className="text-red-500">*</span>
             </lable>
-            <input type="text" id="firstName" required placeholder="نام خود را وارد کنید" 
+            <input type="text" name="firstName" value={formData.firstName} onChange={handleChange} required placeholder="نام خود را وارد کنید" 
             className="w-full p-2 rounded-md border border-gray-300 dark:border-gray-600 bg-gray-100 dark:bg-gray-900
              text-gray-800 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
             </input>
@@ -165,7 +191,7 @@ export default function Home() {
              <lable className="block text-gray-700 dark:text-gray-200 font-medium mb-1">
                   نام خانوادگی<span className="text-red-500">*</span>
             </lable>
-            <input type="text" id="familyName" required placeholder="نام خانوادگی خود را وارد کنید" 
+            <input type="text" name="lastName" value={formData.lastName} onChange={handleChange} required placeholder="نام خانوادگی خود را وارد کنید" 
             className="w-full p-2 rounded-md border border-gray-300 dark:border-gray-600 bg-gray-100 dark:bg-gray-900
              text-gray-800 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
             </input>
@@ -176,7 +202,7 @@ export default function Home() {
              <lable className="block text-gray-700 dark:text-gray-200 font-medium mb-1">
                   شماره موبایل <span className="text-red-500">*</span>
             </lable>
-            <input type="text" id="phone" required placeholder="شماره موبایل خود را وارد کنید" 
+            <input type="tel" name="phone" value={formData.phone} onChange={handleChange} required placeholder="شماره موبایل خود را وارد کنید" 
             className="w-full p-2 rounded-md border border-gray-300 dark:border-gray-600 bg-gray-100 dark:bg-gray-900
              text-gray-800 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
             </input>
@@ -187,7 +213,7 @@ export default function Home() {
              <lable className="block text-gray-700 dark:text-gray-200 font-medium mb-1">
                   توضیح مشکل<span className="text-red-500">*</span>
             </lable>
-            <textarea type="text" id="problem" required placeholder="مشکل خود را شرح دهید" 
+            <textarea row="4" name="problem" value={formData.problem} onChange={handleChange} required placeholder="مشکل خود را شرح دهید" 
             className="w-full p-2 rounded-md border border-gray-300 dark:border-gray-600 bg-gray-100 dark:bg-gray-900
              text-gray-800 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
             </textarea>
@@ -205,6 +231,9 @@ export default function Home() {
         </form>
        </div>
        </div>
+
+       
+
 
       <p className="text-center text-4xl text-black py-4 "> This website is in progress</p>
 
