@@ -141,7 +141,8 @@ export default function Home() {
      </div>
 
       <div className="flex justify-center items-center min-h-screen bg-gray-100 dark:bg-gray-900 p-6">
-        <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-300 dark:border-gray-700 p-6 w-full max-w-2xl">
+        <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-300 dark:border-gray-700
+         p-6 w-full max-w-2xl">
             <h2 className="text-2xl font-semibold text-center mb-6 text-gray-800 dark:text-gray-100">
                 فرم تماس با ما
             </h2>
@@ -153,6 +154,29 @@ export default function Home() {
                   نام <span className="text-red-500">*</span>
             </lable>
             <input type="text" id="firstName" required placeholder="نام خود را وارد کنید" 
+            className="w-full p-2 rounded-md border border-gray-300 dark:border-gray-600 bg-gray-100 dark:bg-gray-900
+             text-gray-800 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </input>
+        </div>
+
+        {/* Family Name */}
+
+        <div>
+             <lable className="block text-gray-700 dark:text-gray-200 font-medium mb-1">
+                  نام خانوادگی<span className="text-red-500">*</span>
+            </lable>
+            <input type="text" id="familyName" required placeholder="نام خانوادگی خود را وارد کنید" 
+            className="w-full p-2 rounded-md border border-gray-300 dark:border-gray-600 bg-gray-100 dark:bg-gray-900
+             text-gray-800 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </input>
+        </div>
+
+        {/* Phone */}
+        <div>
+             <lable className="block text-gray-700 dark:text-gray-200 font-medium mb-1">
+                  شماره موبایل <span className="text-red-500">*</span>
+            </lable>
+            <input type="text" id="phone" required placeholder="شماره موبایل خود را وارد کنید" 
             className="w-full p-2 rounded-md border border-gray-300 dark:border-gray-600 bg-gray-100 dark:bg-gray-900
              text-gray-800 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
             </input>
