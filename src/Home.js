@@ -25,7 +25,21 @@ export default function Home() {
             alert( "please fill out all fields before submitting. ");
             return;
         }
-        alert(`Thank you, ${formData.firstName}! we'll contact you soon. `);
+        
+        const yourPhoneNumber = "989304195183";
+
+        const message = `Hello A new client submitted a form:\n\n
+        Name: ${formData.firstName} ${formData.lastName}\n
+        phone: ${formData.phone}\n
+        problem: ${formData.problem}`;
+
+
+        const whatsappURL = ` https://wa.me/${yourPhoneNumber}?text=${encodeURIComponent(message)}`;
+
+
+        window.open(whatsappURL, "_blank");
+
+        
         setFormData({ firstName: "", lastName: "", phone: "", problem: ""});
      };
 
