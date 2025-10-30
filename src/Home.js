@@ -182,6 +182,17 @@ export default function Home() {
             </input>
         </div>
 
+        {/*Problem Description */}
+        <div>
+             <lable className="block text-gray-700 dark:text-gray-200 font-medium mb-1">
+                  توضیح مشکل<span className="text-red-500">*</span>
+            </lable>
+            <textarea type="text" id="problem" required placeholder="مشکل خود را شرح دهید" 
+            className="w-full p-2 rounded-md border border-gray-300 dark:border-gray-600 bg-gray-100 dark:bg-gray-900
+             text-gray-800 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </textarea>
+        </div>
+
           {/* Send Button */}
      <div className="text-center">
      <button type="submit"
