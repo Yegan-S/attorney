@@ -140,7 +140,16 @@ export default function Home() {
          </img>
      </div>
 
+
+        <button type="submit"
+                className="bg-blue-600 hover:bg-blue-800 text-white ">
+                    ارسال 
+
+        </button>
+
+
       <p className="text-center text-4xl text-black py-4 "> This website is in progress</p>
+
         </div>
     );
 }
