@@ -141,7 +141,7 @@ export default function Home() {
      </div>
 
       <div className="flex justify-center items-center min-h-screen bg-gray-100 dark:bg-gray-900 p-6">
-        <div className="">
+        <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-300 dark:border-gray-700 p-6 w-full max-w-2xl">
             <h2 className="text-2xl font-semibold text-center mb-6 text-gray-800 dark:text-gray-100">
                 فرم تماس با ما
             </h2>
