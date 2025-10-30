@@ -141,6 +141,10 @@ export default function Home() {
      </div>
 
       <div className="flex justify-center items-center min-h-screen bg-gray-100 dark:bg-gray-900 p-6">
+        <div className="">
+            <h2 className="text-2xl font-semibold text-center mb-6 text-gray-800 dark:text-gray-100">
+                فرم تماس با ما
+            </h2>
      <form className="space-y-4">
 
         {/*First Name */}
@@ -164,6 +168,7 @@ export default function Home() {
         </div>
 
         </form>
+       </div>
        </div>
 
       <p className="text-center text-4xl text-black py-4 "> This website is in progress</p>
