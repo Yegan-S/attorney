@@ -140,8 +140,10 @@ export default function Home() {
          </img>
      </div>
 
-
+      <div className="flex justify-center items-center min-h-screen bg-gray-100 dark:bg-gray-900 p-6">
      <form className="space-y-4">
+
+        {/*First Name */}
         <div>
             <lable className="block text-gray-700 dark:text-gray-200 font-medium mb-1">
                   نام <span className="text-red-500">*</span>
@@ -152,6 +154,7 @@ export default function Home() {
             </input>
         </div>
 
+          {/* Send Button */}
      <div className="text-center">
      <button type="submit"
                 className="bg-blue-600 hover:bg-blue-800 text-white px-6 py-2 rounded-lg transition-all duration-200 shadow-md ">
@@ -161,7 +164,7 @@ export default function Home() {
         </div>
 
         </form>
-
+       </div>
 
       <p className="text-center text-4xl text-black py-4 "> This website is in progress</p>
 
