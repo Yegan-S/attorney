@@ -139,7 +139,19 @@ export default function Home() {
           <img src="/images/simaa.jpg" alt="sima" className="w-48 h-48 rounded-full shadow-lg  max-auto">
          </img>
      </div>
-     
+
+
+     <form className="space-y-4">
+        <div>
+            <lable className="block text-gray-700 dark:text-gray-200 font-medium mb-1">
+                  نام <span className="text-red-500">*</span>
+            </lable>
+            <input type="text" id="firstName" required placeholder="نام خود را وارد کنید" 
+            className="w-full p-2 rounded-md border border-gray-300 dark:border-gray-600 bg-gray-100 dark:bg-gray-900
+             text-gray-800 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </input>
+        </div>
+
      <div className="text-center">
      <button type="submit"
                 className="bg-blue-600 hover:bg-blue-800 text-white px-6 py-2 rounded-lg transition-all duration-200 shadow-md ">
@@ -147,6 +159,8 @@ export default function Home() {
 
         </button>
         </div>
+
+        </form>
 
 
       <p className="text-center text-4xl text-black py-4 "> This website is in progress</p>
