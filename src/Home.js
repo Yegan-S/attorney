@@ -37,11 +37,11 @@ export default function Home() {
 
           <div className="flex flex-col text-center p-4 rtl">
             
-            <h3 className="font-semibold text-lg py-2 text-gray-800 dark:text-gray-100 ">
+            <h3 className="font-semibold text-2xl py-2 text-gray-800 dark:text-gray-100 ">
                  حوزه های تخصصی خدمات</h3>
                  
                  <div className="flex flex-row items-center justify-center gap-2 text-blue-600 dark:text-blue-400">
-                 <Scale size={20}/>
+                <Scale size={20}/>
                 <h4 className="text-base/10 font-bold py-2 dark:text-blue-400 ">
                     تنظیم و تدوین قراردادها
                 </h4>
@@ -126,9 +126,9 @@ export default function Home() {
 
           </div>
 
-          <div className="py-2">
+          <div className="p-6">
 
-           <h1 className="font-bold text-lg text-center  dark:text-gray-100 animate-fadeIn delay-800">
+           <h1 className="font-semibold text-2xl text-center pb-2  dark:text-gray-100 animate-fadeIn delay-800">
             تیم حقوقی 
             </h1>
         <p className=" text-lg text-center font-normal text-gray-800 dark:text-gray-100 animate-fadeIn delay-800" >
@@ -138,9 +138,15 @@ export default function Home() {
           </div>
 
           
-    <div className="flex justify-center items-center  py-2 animate-fadeIn " >
+    <div className="flex justify-center items-center rounded-2xl shadow-lg  border border-gray-300 dark:border-gray-700  py-4 animate-fadeIn " >
+       
           <img src="/images/simaa.jpg" alt="sima" className="w-48 h-48 rounded-full shadow-lg  max-auto">
          </img>
+         
+         <div className="px-1" >
+         <h2 className="text-center text-xl font-bol">خانم سیما صالحی وکیل پایه یک دادگستری</h2>
+        <h3 className="text-center font-bold">09120533867</h3>
+     </div>
      </div>
 
       <ContactForm />

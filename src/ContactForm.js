@@ -21,7 +21,7 @@ export default function ContactForm() {
                 return;
             }
             
-            const yourPhoneNumber = "989304195183";
+            const yourPhoneNumber = "989120533867";
     
             const message = `Hello A new client submitted a form:\n\n
             Name: ${formData.firstName} ${formData.lastName}\n
