@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Scale, Sun, Moon, Menu, X }from "lucide-react";
+import { Link } from 'react-router-dom';
 
 export default function Header(){
   const [darkMode, setDarkMode] = useState(false);
@@ -33,7 +34,7 @@ export default function Header(){
     };
 
     return(
-     
+    
 
 <nav className="bg-gray-100 dark:bg-gray-900 border-b border-gray-300 dark:border-gray-700 shadow-lg">
 
@@ -48,14 +49,17 @@ export default function Header(){
           >گروه حقوقی سایداد
           </h1>
 
-            { /* Right Section-links */ }
+
+
+            { /* Right Section-Links */ }
 
             <div className="hidden md:flex items-center space-x-6">
 
-            <a href="#" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-lg font-medium"> تماس</a>
-            <a href="#" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-lg font-medium">خدمات</a>
-            <a href="#" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-lg font-medium"> درباره ما </a>
-           
+            <Link to="/contact" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-md font-medium"> تماس</Link>
+            <Link to="/service" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-md font-medium">خدمات</Link>
+            <Link to="/about" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-md font-medium"> درباره ما </Link>
+            <Link to="/team" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-md font-medium"> تیم حقوقی</Link>
+            <Link to="/" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-md font-medium"> صفحه اصلی</Link>
            
            {/* Dark mode button */}
 
@@ -82,9 +86,11 @@ export default function Header(){
        {menuOpen && ( 
         <div className="md:hidden flex flex-col items-center space-y-4 py-4 bg-gray-50 dark:bg-gray-800 border-t border-gray-300 dark:border-gray-700">
 
-            <a href="#" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-lg font-medium"> تماس</a>
-            <a href="#" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-lg font-medium">خدمات</a>
-            <a href="#" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-lg font-medium"> درباره ما </a>
+            <Link to="/contact" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-lg font-medium"> تماس</Link>
+            <Link to="/service" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-lg font-medium">خدمات</Link>
+            <Link to="/about" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-lg font-medium"> درباره ما </Link>
+            <Link to="/team" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-lg font-medium"> تیم حقوقی</Link>
+            <Link to="/" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-lg font-medium"> صفحه اصلی</Link>
            
            <button
            onClick={toggleDarkMode}
@@ -98,5 +104,6 @@ export default function Header(){
        )}
 
         </nav>
+       
     );
 }
