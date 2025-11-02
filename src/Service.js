@@ -9,6 +9,37 @@ export default function Service(){
             <h3 className="font-semibold text-2xl py-2 text-gray-800 dark:text-gray-100 ">
                  حوزه های تخصصی خدمات</h3>
                  
+
+                  <div className="flex flex-row items-center justify-center gap-2 text-blue-600 dark:text-blue-400">
+                 <Scale size={20}/>
+                <h4 className="text-base/10 font-bold py-2  dark:text-blue-400">
+                    دعاوی خانواده
+                </h4>
+                </div>
+
+                <ul className="list-disc text-base text-center items-center rtl space-y-2 dark:text-gray-100">
+
+                <li>طلاق توافقی و غیرتوافقی</li>
+                <li>مهریه,نفقه,حضانت فرزند و اجرت المثل</li> 
+                <li>تنظیم توافق نامه های پیش از ازدواج و صلح نامه های خانوتدگی</li>
+            </ul>
+
+
+              <div className="flex flex-row items-center justify-center gap-2 text-blue-600 dark:text-blue-400">
+                 <Scale size={20}/>
+                <h4 className="text-base/10 font-bold py-2 dark:text-blue-400">
+                     دعاوی مالی, ملکی و ثبتی
+                </h4>
+                </div>
+
+                <ul className="list-disc text-base text-center items-center rtl space-y-2 dark:text-gray-100">
+
+                <li>دعاوی مربوط به مالکیت, سرقفلی اجاره, تفکیک و افراز</li>
+                <li>دعاوی مربوط به اسناد رسمی و اداره ثبت اسناد و املاک</li> 
+                <li>پیگیری پرونده های حقوقی و ثبتی تا صدور رأی قطعی</li>
+            </ul>
+
+
                  <div className="flex flex-row items-center justify-center gap-2 text-blue-600 dark:text-blue-400">
                 <Scale size={20}/>
                 <h4 className="text-base/10 font-bold py-2 dark:text-blue-400 ">
@@ -37,33 +68,9 @@ export default function Service(){
                 <li>تهیه و اجرای رأی داوری مطابق با اصول قانونی</li>
             </ul>
 
-             <div className="flex flex-row items-center justify-center gap-2 text-blue-600 dark:text-blue-400">
-                 <Scale size={20}/>
-                <h4 className="text-base/10 font-bold py-2  dark:text-blue-400">
-                    دعاوی خانواده
-                </h4>
-                </div>
+            
 
-                <ul className="list-disc text-base text-center items-center rtl space-y-2 dark:text-gray-100">
-
-                <li>طلاق توافقی و غیرتوافقی</li>
-                <li>مهریه,نفقه,حضانت فرزند و اجرت المثل</li> 
-                <li>تنظیم توافق نامه های پیش از ازدواج و صلح نامه های خانوتدگی</li>
-            </ul>
-
-             <div className="flex flex-row items-center justify-center gap-2 text-blue-600 dark:text-blue-400">
-                 <Scale size={20}/>
-                <h4 className="text-base/10 font-bold py-2 dark:text-blue-400">
-                     دعاوی مالی, ملکی و ثبتی
-                </h4>
-                </div>
-
-                <ul className="list-disc text-base text-center items-center rtl space-y-2 dark:text-gray-100">
-
-                <li>دعاوی مربوط به مالکیت, سرقفلی اجاره, تفکیک و افراز</li>
-                <li>دعاوی مربوط به اسناد رسمی و اداره ثبت اسناد و املاک</li> 
-                <li>پیگیری پرونده های حقوقی و ثبتی تا صدور رأی قطعی</li>
-            </ul>
+           
 
              <div className="flex flex-row items-center justify-center gap-2 text-blue-600 dark:text-blue-400">
                  <Scale size={20}/>

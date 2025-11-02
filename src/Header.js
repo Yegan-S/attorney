@@ -36,7 +36,8 @@ export default function Header(){
     return(
     
 
-<nav className="bg-gray-100 dark:bg-gray-900 border-b border-gray-300 dark:border-gray-700 shadow-lg">
+<nav className="bg-gray-100 dark:bg-gray-900
+ border-b border-gray-300 dark:border-gray-700 shadow-lg">
 
         <div className="mx-auto max-w-7xl px-4 py-3 flex items-center justify-between pr-16">
 
@@ -45,7 +46,7 @@ export default function Header(){
            <Scale className="text-blue-600 dark:text-blue-400" size={28}/>
           </div>
 
-          <h1 className="text-xl font-semibold text-gray-800 dark:text-gray-100 items-center text-center "
+          <h1 className="text-center text-xl font-semibold text-gray-800 dark:text-gray-100 "
           >گروه حقوقی سایداد
           </h1>
 
@@ -53,12 +54,12 @@ export default function Header(){
 
             { /* Right Section-Links */ }
 
-            <div className="hidden md:flex items-center space-x-6">
+            <div className="hidden md:flex items-center justify-end space-x-6">
 
             <Link to="/contact" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-md font-medium"> تماس</Link>
             <Link to="/service" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-md font-medium">خدمات</Link>
-            <Link to="/about" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-md font-medium"> درباره ما </Link>
             <Link to="/team" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-md font-medium"> تیم حقوقی</Link>
+            <Link to="/about" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-md font-medium"> درباره ما </Link>
             <Link to="/" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-md font-medium"> صفحه اصلی</Link>
            
            {/* Dark mode button */}
@@ -88,8 +89,8 @@ export default function Header(){
 
             <Link to="/contact" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-lg font-medium"> تماس</Link>
             <Link to="/service" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-lg font-medium">خدمات</Link>
-            <Link to="/about" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-lg font-medium"> درباره ما </Link>
             <Link to="/team" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-lg font-medium"> تیم حقوقی</Link>
+            <Link to="/about" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-lg font-medium"> درباره ما </Link>
             <Link to="/" className=" text-gray-800 dark:text-gray-200  hover:text-blue-600 dark:hover:text-blue-400 text-lg font-medium"> صفحه اصلی</Link>
            
            <button
